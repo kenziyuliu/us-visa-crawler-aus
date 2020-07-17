@@ -1,0 +1,118 @@
+2020-07-02 16:09:06,743 [fast_visa.py:80] INFO - Initialization...
+2020-07-02 16:09:06,743 [fast_visa.py:119] INFO - F, Restored date: {'沈阳': (2020, 9, 2), '广州': (2020, 11, 19), '香港': (2020, 7, 14), '成都': (0, 0, 0), '上海': (0, 0, 0), '北京': (2020, 11, 29)}
+2020-07-02 16:09:06,744 [fast_visa.py:119] INFO - B, Restored date: {'沈阳': (2020, 7, 3), '成都': (2020, 8, 4), '广州': (2020, 8, 6), '北京': (0, 0, 0), '香港': (2020, 7, 6), '上海': (2020, 9, 15)}
+2020-07-02 16:09:06,744 [fast_visa.py:119] INFO - H, Restored date: {'北京': (2020, 11, 29), '香港': (2020, 7, 2), '上海': (2020, 8, 18), '广州': (2020, 9, 17)}
+2020-07-02 16:09:06,744 [fast_visa.py:119] INFO - O, Restored date: {'沈阳': (2020, 7, 3), '成都': (2020, 6, 30), '北京': (2020, 7, 14), '广州': (2020, 9, 17), '香港': (2020, 7, 2), '上海': (0, 0, 0)}
+2020-07-02 16:09:06,744 [fast_visa.py:119] INFO - L, Restored date: {'香港': (2020, 7, 2), '北京': (2020, 11, 29), '广州': (2020, 8, 27), '上海': (2020, 8, 25)}
+2020-07-02 16:09:06,744 [fast_visa.py:139] INFO - Start threads...
+2020-07-02 16:09:08,421 [fast_visa.py:179] WARNING - F, 沈阳, FAILED, Session Expired
+2020-07-02 16:09:08,423 [fast_visa.py:179] WARNING - F, 香港, FAILED, Session Expired
+2020-07-02 16:09:08,423 [session_op.py:51] INFO - Update session placeholder_nsdjnbjwmfdzorr
+2020-07-02 16:09:08,453 [fast_visa.py:179] WARNING - F, 成都, FAILED, Session Expired
+2020-07-02 16:09:08,456 [fast_visa.py:179] WARNING - F, 广州, FAILED, Session Expired
+2020-07-02 16:09:08,460 [fast_visa.py:179] WARNING - F, 北京, FAILED, Session Expired
+2020-07-02 16:09:08,476 [fast_visa.py:179] WARNING - F, 上海, FAILED, Session Expired
+2020-07-02 16:09:08,518 [fast_visa.py:179] WARNING - F, 台北, FAILED, Session Expired
+2020-07-02 16:10:14,544 [fast_visa.py:80] INFO - Initialization...
+2020-07-02 16:10:14,545 [fast_visa.py:119] INFO - F, Restored date: {'沈阳': (2020, 9, 2), '成都': (0, 0, 0), '广州': (2020, 11, 19), '上海': (0, 0, 0), '北京': (2020, 11, 29), '香港': (2020, 7, 14), '台北': (0, 0, 0)}
+2020-07-02 16:10:14,545 [fast_visa.py:119] INFO - B, Restored date: {'沈阳': (2020, 7, 3), '成都': (2020, 8, 4), '广州': (2020, 8, 6), '北京': (0, 0, 0), '香港': (2020, 7, 6), '上海': (2020, 9, 15)}
+2020-07-02 16:10:14,546 [fast_visa.py:119] INFO - H, Restored date: {'北京': (2020, 11, 29), '香港': (2020, 7, 2), '上海': (2020, 8, 18), '广州': (2020, 9, 17)}
+2020-07-02 16:10:14,546 [fast_visa.py:119] INFO - O, Restored date: {'沈阳': (2020, 7, 3), '成都': (2020, 6, 30), '北京': (2020, 7, 14), '广州': (2020, 9, 17), '香港': (2020, 7, 2), '上海': (0, 0, 0)}
+2020-07-02 16:10:14,546 [fast_visa.py:119] INFO - L, Restored date: {'香港': (2020, 7, 2), '北京': (2020, 11, 29), '广州': (2020, 8, 27), '上海': (2020, 8, 25)}
+2020-07-02 16:10:14,546 [fast_visa.py:139] INFO - Start threads...
+2020-07-02 16:10:15,751 [fast_visa.py:179] WARNING - F, 台北, FAILED, Session Expired
+2020-07-02 16:10:15,752 [session_op.py:51] INFO - Update session placeholder_kuvpjenissvafpa
+2020-07-02 16:10:15,780 [fast_visa.py:179] WARNING - F, 沈阳, FAILED, Session Expired
+2020-07-02 16:10:15,784 [fast_visa.py:179] WARNING - F, 上海, FAILED, Session Expired
+2020-07-02 16:10:15,788 [fast_visa.py:179] WARNING - F, 北京, FAILED, Session Expired
+2020-07-02 16:10:15,802 [fast_visa.py:179] WARNING - F, 广州, FAILED, Session Expired
+2020-07-02 16:10:15,830 [fast_visa.py:179] WARNING - F, 成都, FAILED, Session Expired
+2020-07-02 16:10:16,029 [fast_visa.py:179] WARNING - F, 香港, FAILED, Session Expired
+2020-07-02 16:10:45,514 [session_op.py:360] INFO - F, 台北, SUCCESS_N, (2020, 8, 26)
+2020-07-02 16:10:45,515 [session_op.py:51] INFO - Update session placeholder_vrrzqicxnhdevtg
+2020-07-02 16:11:15,736 [fast_visa.py:179] WARNING - F, 广州, FAILED, Session Expired
+2020-07-02 16:11:15,738 [fast_visa.py:179] WARNING - F, 北京, FAILED, Session Expired
+2020-07-02 16:11:15,762 [fast_visa.py:179] WARNING - F, 香港, FAILED, Session Expired
+2020-07-02 16:11:15,771 [fast_visa.py:179] WARNING - F, 沈阳, FAILED, Session Expired
+2020-07-02 16:11:15,798 [fast_visa.py:179] WARNING - F, 成都, FAILED, Session Expired
+2020-07-02 16:11:15,803 [fast_visa.py:179] WARNING - F, 台北, FAILED, Session Expired
+2020-07-02 16:11:15,805 [fast_visa.py:179] WARNING - F, 上海, FAILED, Session Expired
+2020-07-02 16:11:17,460 [session_op.py:360] INFO - F, 沈阳, SUCCESS_N, (0, 0, 0)
+2020-07-02 16:11:17,460 [session_op.py:51] INFO - Update session placeholder_lnkvtdffyfjazrv
+2020-07-02 18:19:13,565 [fast_visa.py:81] INFO - Initialization...
+2020-07-02 18:19:13,566 [fast_visa.py:170] INFO - Start threads...
+2020-07-02 18:19:15,269 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-02 18:19:15,269 [session_op.py:51] INFO - Update session placeholder_yuvnfhypztukupj
+2020-07-02 18:19:15,303 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-02 18:19:15,351 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-02 18:19:16,521 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-02 18:19:16,620 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-02 18:19:16,908 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-02 18:19:24,560 [session_op.py:77] ERROR - Traceback (most recent call last):
+  File "/Users/kenziyuliu/Documents/us-visa-appointment-crawler/us-visa-aus/visa2/session_op.py", line 56, in add_session
+    exit()
+  File "/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/_sitebuiltins.py", line 26, in __call__
+    raise SystemExit(code)
+SystemExit: None
+
+2020-07-02 18:19:24,560 [session_op.py:51] INFO - Update session placeholder_rqisrcmluaelelv
+2020-07-02 18:55:58,033 [fast_visa.py:81] INFO - Initialization...
+2020-07-02 18:55:58,033 [fast_visa.py:170] INFO - Start threads...
+2020-07-02 18:55:59,691 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-02 18:55:59,691 [session_op.py:51] INFO - Update session placeholder_apvzaptsuvawqhr
+2020-07-02 18:55:59,698 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-02 18:55:59,725 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-02 18:56:00,909 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-02 18:56:00,939 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-02 18:56:00,961 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-02 18:56:34,918 [session_op.py:396] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 10)
+2020-07-02 18:56:34,919 [session_op.py:51] INFO - Update session placeholder_yuxngaezwupyptg
+2020-07-02 18:57:08,332 [session_op.py:396] INFO - F, Perth, SUCCESS_N, (2020, 9, 2)
+2020-07-02 18:57:08,333 [session_op.py:51] INFO - Update session placeholder_jounvzbwcxiciqn
+2020-07-02 18:57:38,238 [session_op.py:396] INFO - F, Sydney, SUCCESS_N, (2020, 10, 15)
+2020-07-02 18:57:38,240 [session_op.py:51] INFO - Update session placeholder_zrycnuevilnkfou
+2020-07-02 18:57:59,214 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-02 18:57:59,247 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-02 18:57:59,257 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-02 18:58:00,934 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-02 18:58:00,936 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-02 18:58:00,959 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-02 18:58:10,758 [session_op.py:396] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 7)
+2020-07-02 18:58:10,759 [session_op.py:51] INFO - Update session placeholder_qrkftpkbalckunh
+2020-07-02 18:58:40,593 [session_op.py:396] INFO - E, Perth, SUCCESS_N, (2020, 9, 2)
+2020-07-02 18:58:40,594 [session_op.py:51] INFO - Update session placeholder_teicpyyskegokha
+2020-07-02 18:59:10,343 [session_op.py:396] INFO - E, Sydney, SUCCESS_N, (2020, 10, 15)
+2020-07-02 18:59:10,344 [session_op.py:51] INFO - Update session placeholder_bfvjndcykdkzita
+2020-07-02 18:59:45,753 [session_op.py:396] INFO - F, Sydney, SUCCESS_N, (2020, 10, 15)
+2020-07-02 18:59:45,753 [session_op.py:51] INFO - Update session placeholder_njylzvyjzlaaodd
+2020-07-02 18:59:59,251 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-02 18:59:59,267 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-02 18:59:59,289 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-02 19:00:00,938 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-02 19:00:00,962 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-02 19:00:00,977 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-02 19:00:23,515 [fast_visa.py:81] INFO - Initialization...
+2020-07-02 19:00:23,515 [fast_visa.py:170] INFO - Start threads...
+2020-07-02 19:00:25,640 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 15)
+2020-07-02 19:00:25,729 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 2)
+2020-07-02 19:00:25,770 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 10)
+2020-07-02 19:00:27,904 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 15)
+2020-07-02 19:00:27,946 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 7)
+2020-07-02 19:00:28,335 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 2)
+2020-07-02 19:07:47,101 [fast_visa.py:81] INFO - Initialization...
+2020-07-02 19:07:47,102 [fast_visa.py:170] INFO - Start threads...
+2020-07-02 19:07:49,700 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 10)
+2020-07-02 19:07:49,820 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 2)
+2020-07-02 19:07:50,023 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 15)
+2020-07-02 19:07:52,122 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 15)
+2020-07-02 19:07:52,226 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 7)
+2020-07-02 19:07:52,239 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 2)
+2020-07-02 19:09:48,774 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-02 19:09:48,775 [session_op.py:51] INFO - Update session placeholder_gxthvbtsakssfuj
+2020-07-02 19:09:48,807 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-02 19:09:49,909 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 15)
+2020-07-02 19:09:51,215 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-02 19:09:51,238 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-02 19:09:51,247 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-02 19:10:18,539 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 2)
+2020-07-02 19:10:18,541 [session_op.py:51] INFO - Update session placeholder_njylzvyjzlaaodd

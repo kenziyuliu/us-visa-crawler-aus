@@ -1,0 +1,827 @@
+2020-07-11 12:51:47,430 [fast_visa.py:81] INFO - Initialization...
+2020-07-11 12:51:47,433 [fast_visa.py:170] INFO - Start threads...
+2020-07-11 12:51:49,102 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 12:51:49,102 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDBEMkGEx3T6n9iCMwRYM1E1vZ9zTYhBcLrTuIhtYTW.8i7Nv8MVbROeZveDSIbB1PUoWtTZnOPeagJRNdP_uFwBhtTi
+2020-07-11 12:51:49,123 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 12:51:49,185 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 12:51:50,379 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 12:51:50,384 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 12:51:50,421 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 12:52:20,236 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 12:52:20,237 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOj51Fm2ItQnGl85DUm8luUY3h.ZaZUDPbz5LLINFRiJT9v73wHL3u0G_zkguQ9yGm3T_eChMtp9MO8kouKyQBrWx6Fd
+2020-07-11 12:52:53,314 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 12:52:53,315 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGpdldSXwwf_hc.shZwo3UsOSouyjm.Fg7fAMb51lEvJ5Vum6P1Q6IBhNFS9Ssa.V3x_p8JnahK7c0RWcPpn5iBlrucN
+2020-07-11 12:53:24,171 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 12:53:24,171 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPqzwTtT4whQSI1Q8nQhvUIwoHGtVbvYNRrr.HromPFo_ZwjCyLsTekYqy7cavdtQzCP7WXoFxG4ztwskRLYPXlYzx3f
+2020-07-11 12:53:48,669 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 12:53:48,689 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 12:53:48,705 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 12:53:50,396 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 12:53:50,455 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 12:53:50,469 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 12:53:54,192 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 12:53:54,193 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQP0KvX6WmolxKtP4vqd0o9Ehf6v9iQm7H6nWYihfagQRcAACa5hESGNsLhFWDu4vR3gl3lk8dZrDbu6t2SSHANIXG5dB
+2020-07-11 12:54:24,815 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 12:54:24,816 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJayylZhR67c3TwEihPFKZyh.oEBpxzrKJ7zuixMyACW8gPVSiuQ1_IEy98wz.n5rJ1IRjQefSng4a2ouOLRuRsil85Y
+2020-07-11 12:54:55,580 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 12:54:55,580 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQP1grnG0YopzpaQgL58bzOmxgba9xYD5p3iwBLzdXTEHfhvk4lUAWBdqBKY5VIIQcl4es9PkFU3fsj8bGdvCMw7O3EAO
+2020-07-11 12:55:25,367 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 12:55:25,368 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHDndfq2qdgRBO8wHcIxZ3BwgaNcetZDuxd8k.hTKi279_sfeciHHHRkJrCVP0kp0ndm15LS9LAez3CZAMt11HW3QNOT
+2020-07-11 12:55:48,641 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 12:55:48,675 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 12:55:48,677 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 12:55:50,387 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 12:55:50,390 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 12:55:50,418 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 12:55:54,905 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 12:55:54,906 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLIGTwSgTUQGBpZ9430XjdVFkC.UutGesD4sZwVw8KvygYG7Ttlp8X_xt3iQUhZ3uvBVdZ5hRW1aiephyiy4Fs9NHO8j
+2020-07-11 12:56:25,295 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 12:56:25,296 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQC7Z9Y.ynU6mB1WGARy99V4eqyhItR2kRSZbjF0fL9oewC1cnx5ODGEX1XN_TfRUEn.5_mb80Hz7ULUAat.rN6jKRcMr
+2020-07-11 12:56:55,760 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 12:56:55,761 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGvWNykGy6NJUyqKrX8aMfuudQTDotFjwAG.MZ8cG9rmXmHFOQfG03C4T2JcbNt4OF7WkjcVeDYDpu56DtT0Bvcl4WTD
+2020-07-11 12:57:26,900 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 12:57:26,901 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCJzB.Bn6NhD3ONwoo_ar6EXgJ_fb6FgCOI9vMHs6mPhO1TSOjqP4ChKpqJsfMSNDREA6fj7BS_MC1jK8N52AedTPC9s
+2020-07-11 12:57:48,669 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 12:57:48,674 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 12:57:48,703 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 12:57:50,414 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 12:57:50,443 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 12:57:50,475 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 12:57:57,846 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 12:57:57,847 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNEJQF.a_i3URtJNkPcy8fssgaIB2quEnRLf1jkgbyjdhL11G3ozKaWAlTdk.GBr98tqdP9cy5rxJhMpYmomCBDd0OES
+2020-07-11 12:58:34,330 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 12:58:34,331 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEua_ujNa6dHQPghrqUV9R1OWH.VAMTkWtlOkfnbQrSS_BUZiyX6cJu3YcqUoaGEnyPdcgwDSv2QeS2IEfbmm7FZoDE0
+2020-07-11 12:59:08,312 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 12:59:08,313 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQP.HaVBVduHvS1zJ.dIUlVUZYwEcxmU_E.jbMHAZpnlCqO5ejfeOEj_NaBOHSuRFdxC4TKPVt1PkQfMWmjpVjYLwU.WC
+2020-07-11 12:59:45,290 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 12:59:45,291 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQClup0iBkx7jhhR.RK8NzobGIB.nEnIsSb95uE7_tSyXVsRE6gtpMKvbK7Tvzr0RuLdUqTpEdU119_lyNKUJPGAk2TCM
+2020-07-11 12:59:48,630 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 12:59:48,676 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 12:59:48,730 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 12:59:50,437 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 12:59:50,441 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 12:59:50,444 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:00:18,816 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:00:18,817 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKNM4NCGREbgst0X8xaJFSIVPzrDNHJllezabHO6oGiwCP.JxPkeuUrimxJHAfScoddi9G66hHtrB2c6KAAQEkNKwgw2
+2020-07-11 13:00:49,891 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:00:49,892 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKb0G_kuAOXgm8Q1G20YPMl51.L4jn3jrGrh7e5Y1SvLGPD8s9Fux38M8nquDrTk7KYFkKDfDNR851fc9VZGUugCDVXw
+2020-07-11 13:01:21,452 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:01:21,452 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLN.5OyARLYPwNXaO98rn6II63PIbl8swrjCp9O.yASQB2b4yQRy7MX.B_zLlJNOO7CeHnd8YmRj8j0W4RIf.QKXDplJ
+2020-07-11 13:01:48,699 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 13:01:48,741 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 13:01:48,750 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 13:01:50,451 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:01:50,454 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 13:01:50,457 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 13:01:51,949 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:01:51,950 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHQ4Hf3Kzt4.L6zs1s0NHsujcTT2W6INfS.EEzpRe.3ENpaRhvuV2utQmFMTUt5TjtnrVWU8aRkZyRgszQwfUUQYH7S4
+2020-07-11 13:02:24,969 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:02:24,970 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBwzjidrai.P5gJZR2wYECBWuvAX2IlK3UGNHM.Qa4VxxS4vHoM1qPHDRv8oP.0WHPjlI.A5g0iX_q_SFEBEl.BtKVlv
+2020-07-11 13:03:02,210 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:03:02,210 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKqu86y.UYLW4lMDYpPFin6kalm6aDTrEH2BQumyEMsmNk0.w4FNVyYUJN9UZ4nv8Xr1v2XDequqASq1cYJwg9l3pFeN
+2020-07-11 13:03:32,299 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:03:32,300 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPFm1tehWnCoR6UBbMGy4eNyfKtACV4TwCXM5DE1XPo8DbATLbPp.v2pxMVYszFwHhukpgPEUMskct1ydjT2bny_ZBvf
+2020-07-11 13:03:48,708 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 13:03:48,710 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 13:03:48,778 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 13:03:50,409 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 13:03:50,412 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 13:03:50,443 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:04:02,901 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:04:02,902 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJ1sFixhMGKBJFW_9TzumpUKfd5iip5SC1uBhdcRgbo8TPlMshSPiMOzmihYN3touh3Rp1fBlLmf6wbyMWqsJpsAL5yE
+2020-07-11 13:04:36,509 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:04:36,510 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQO.yGuDa9mITCcNempA8ZmasQNJitz64c7H43RuzP8esfrU16J.tjlel93dnXBDaLuV1gEKLAD54Hw.1yqfkRVcwd7W_
+2020-07-11 13:05:06,879 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:05:06,880 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHpr.IhcKB0WUc7MxxbFaJIDKgXNsqMqH6UaK59WKtrZEtZNQhzELZGyUOy5HaF.KlxXpFebZYlx8oGcNDLTFSA6w6eZ
+2020-07-11 13:05:36,683 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:05:36,683 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIdAHsrYLGKlTrzrVJRLHCi_vtJnSJCIGFvrUT22mVM7NTPL.Cte_ZlxzskY4UUTJzrHIRMP8swDlWAWW5jSyaXizPUt
+2020-07-11 13:05:48,651 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 13:05:48,679 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 13:05:48,681 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 13:05:50,410 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 13:05:50,438 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 13:05:50,552 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:06:06,833 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:06:06,833 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLwOoGujAAem2XpUkG0BtZv0DjQv81.pqZHiXVjgx6x1g7MbktVwFSfQLmNY4._djBKDdH2jpFsT2.uCpdCXB1NOYjML
+2020-07-11 13:06:40,442 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:06:40,443 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOdAYEUYiXVRymH7bs1YB53VljnDg1IWTo5TS9rjZslW3Zy3nvUxXI2Hme8752.edcnqIsu2nROly916F9TaEBOsTsZ9
+2020-07-11 13:07:10,356 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:07:10,356 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNzOFSmnFyyUyRqY1OFsLcrDkP_PudJT0_Xw8Av6PBPO3CCyC40PvzUuNokb0nSu5Y5L60.mkw3UeQwCYSyFxHKdGpLA
+2020-07-11 13:07:41,587 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:07:41,587 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIw414qJsnbwcQ0jElSQ9X3HVRpgq8ltIWDZRGPVqOG3mtSQE6IJebH5A3DriviMAIr0BXw1dKpPx4OosichZqLolrLS
+2020-07-11 13:07:48,685 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 13:07:48,730 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 13:07:48,764 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 13:07:50,475 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:07:50,493 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 13:07:50,543 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 13:08:11,594 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:08:11,594 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDV2Sk_a0i3ZfuEMKTlsGmNxD3UF_SeJLtZmauBtSyaZyAkvoD3xC_f8bPemSKupbezkgTE2PSFezqWYpLHcFTNfLE4f
+2020-07-11 13:08:41,887 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:08:41,888 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCTVHBqyWVkc3IyjMjXY2ycuH0Ciir2YAuFjG1wD9EWytpl3LQGVKo68IVcCyEY4BcDKxfwwLfSlZQC_ZGsh_EEInDlR
+2020-07-11 13:09:12,018 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:09:12,019 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBP.hvchqeoONwdtiPuPSVwcDU0UjFuC0.WHx093uBYLoDA49ogUiyqMByvRtaIpettDzDucaYEDuz7iAqx_iVeCUPHi
+2020-07-11 13:09:42,862 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:09:42,862 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOGQ9q5MQNwoBKgS9UPq6razNAyAaynhkTb.m22cwwBbm6L3T9qqVUKOWsPInaUaju4_dfx9Rz4Tdw0O8z5m.L0iY0Oq
+2020-07-11 13:09:48,659 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 13:09:48,668 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 13:09:48,671 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 13:09:50,426 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 13:09:50,469 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 13:09:50,492 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 13:10:13,480 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:10:13,480 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFNZFKKRdqaxjypdUxK0LJZgRSTcW3DXKaXqLw_ArGKEc59es7rRzuDvYtOedmVkPmd9INh4O6OJGYCb2LvdGaXLYNV9
+2020-07-11 13:10:46,606 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:10:46,607 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPVUnnelQTDCLqgbqi4NdZaopRwYgQ_XQB1FrqAF9eckkb460KG3DFI6A3PcoSiOQKUt49le_a52HjT0Dv3Bp41tQ6Hr
+2020-07-11 13:11:16,749 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:11:16,750 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHRG7r4nSvkTarhg8bkhcCwaL2WV83LQ3ANqR.50B.URZAuRfkwJQA8fyI5vKO_fsP1TggLAMmAI.bB.Ap2s9QmXOVtC
+2020-07-11 13:11:49,668 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:11:49,974 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:11:49,987 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:11:50,722 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:11:50,723 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOsndKhioizxb5BrRaDlTgy702njBVvF1CkjJrc1AtBAarC_NBofh2_iQ1v7T4jAee3AwSRFZl.Rs_gng7dDEY2p3U8A
+2020-07-11 13:11:51,574 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:11:51,664 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:11:51,723 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:12:22,063 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:12:22,064 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJl9ykI6YhifIoRDM0BHyL4mWCR8SjT4njl56U3ItwazyBuMhaWxbJRDCaWPON3bDv53FbbrxOhXHdEVdPwA.33Qip3F
+2020-07-11 13:12:54,683 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:12:54,683 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKZoekAzxEPbmXMzdzhIIG6y8bGsVLBjPtNu9WeGkEHJJTp6IkiypG_zWE.C1gWgazhKp7hAe1a8GchkcC_A9VEjbRXp
+2020-07-11 13:13:25,817 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:13:25,817 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOj3bomj7tqPZkkZGTf5blxbeOzryBDDAkYDlywvB0yZtfadPtHdn4Qk66fegJv6UmnHRUfo5UIii1q.Kv568rzlRhDG
+2020-07-11 13:13:49,552 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:13:49,769 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:13:49,802 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:13:51,451 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:13:51,490 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:13:51,795 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:13:55,889 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:13:55,890 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFncILg_YIu_pzhwCc.XavOdvdN9CkD7UC4ikbi5ECcPH9sk9NlUX9lmode7pGgyPGJPTW4hLZ_GZUCj2Ex.CxTdKj_N
+2020-07-11 13:14:26,518 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:14:26,519 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCxdiWjFJkcj8940fyC0yx3EN6WHuAoZ437lnhE4hETusx8pxHAmg3Nlfli5088b_dPzUzEn8JXnw5PK7egPiVyIMQn8
+2020-07-11 13:14:57,107 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:14:57,108 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFBJ.LR61kuFuHv60OAO5qccJZ1DjpknBsADM3o.szR3sH7YLosk5d3yADEw1qqrTpRoqIZxs1RM4LE3EPqzawIp.Xqx
+2020-07-11 13:15:28,231 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:15:28,231 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQP1SkCfSR0ZBVdcZChAisoijMzZYhq61IRLQzXzDHap6eK1WDt0YvLQmdN1ijKtAHaz4aMLZAtziglToq6ZJkvU9yVDG
+2020-07-11 13:15:49,811 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:15:49,947 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:15:50,181 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:15:51,455 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:15:51,512 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:15:51,525 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:15:58,543 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:15:58,544 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJUOcOUrmJ749.n.7eMRGJO5fsgLqBVmQ8UVpKP2_CBridKPout.wYT2siDNV2Y.CPRhwQk_3VbJSXcJN5zapv5US0G7
+2020-07-11 13:16:28,861 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:16:28,861 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNF9_kgX_.7mzKiX_ZYcQPIRn7jWJkWt9BDhqZZWyLmR8lX9wQZTQMYK8Bzxr8btrByAPzGRY0bi1SwhxKZwAQuj.DLk
+2020-07-11 13:17:02,417 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:17:02,418 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHgsm83yG5eNU1Oi0KhCcoRZBiklGwsxsJHUb7TtpxGv7IgNNio1GlhUvn3qV_oHOizrTnTU8YysqnbYx3Dp15AfQYVA
+2020-07-11 13:17:32,881 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:17:32,881 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQG1R8koaiScApJjQgWnw6l7Kxt1fVn08N4Dxg2_oCN6flKcSVcp4MRZo681AOBRy78S36C7Q7_4zp83KBvJ6SPSc6E78
+2020-07-11 13:17:49,727 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:17:49,797 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:17:49,897 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:17:51,424 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:17:51,572 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:17:51,693 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:18:02,845 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:18:02,846 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKdgT5dNt1.ND1oxsFbDOrPZTyniCNtDR2nsQUnoxYhcUqTU0RGNn42n6HEBQ2wGgLgDjjaAE545u4dWKkCS2hLmlzRy
+2020-07-11 13:18:35,931 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:18:35,932 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPy0vsNLWAqo_tsMXymI9KPFaV1YKefBNAR3oZyIc4XOdQuyGvQK6X.8nGHutpyOlNW9bSL2CXybtpXCEpLOtOJIRO1R
+2020-07-11 13:19:06,225 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:19:06,225 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIHUXlx74UDbhuTeGez7CP7soi10lg.nA5EKOoF6KT02L_Ei3uUe9u6o_WVVePECGFOmwYJ_mS.NR5NMlYqH81h45JWT
+2020-07-11 13:19:36,771 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:19:36,772 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAlIME2gKjN0FGT6va.yplH72diZ3h3R6NKlfcyqmG.j4NjS4lUU7NkOsP2rC5UHyCdHgMu5VxXjxdQmrMczINjddwrw
+2020-07-11 13:19:49,607 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:19:49,726 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:19:49,965 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:19:51,426 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:19:51,620 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:19:52,014 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:20:07,308 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:20:07,309 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBx4nsGDlHCSdGoY8bxWwWPPf4AHjMSc03vTRgET7ICjiUErg2a2kUef22g95tm1Ak9OyFRfn2UkKplVrH_v.dWxW5J8
+2020-07-11 13:20:37,313 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:20:37,314 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGqYQjvIkqKbZdH.fs7R_KCpQqY.3fy6tHypXsscUcMw22aabYdolnoWZZKc3sQaFZXrO1ooD9lVfLDalnMlsKJNzIQ_
+2020-07-11 13:21:07,577 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:21:07,578 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKXuhcMcNIx71BOoccvvRO7aXCzf5yfCUB8GApUYkQ6vYPOoZq0Bih5z._ByD1uU3vYKUViQWvauHnqQs9D1hDdVwlNq
+2020-07-11 13:21:39,126 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 13:21:39,127 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFRDoMYlBCpsHdx881hKHVC7MYFcRC2zDvWRFZfaMM_hQwhXu6Jey6IxCtnccI8M6Pedcqyh97NUg6_0ZxoTh32nIwtd
+2020-07-11 13:21:49,748 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:21:50,038 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:21:50,133 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:21:51,456 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:21:51,535 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:21:51,744 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:22:09,561 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 13:22:09,562 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQClD14vNislNjH36kfhptmCT7xCbtYSVZY953gZ7hmprGDI4BIqzobjKciYU5ct3sRMh0GaHW0P1QGPc3bWIi344o8ou
+2020-07-11 13:22:39,569 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 13:22:39,569 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPH0Ne44BZc447em8XwLSO.Ov2ebachuK933YhYZ7A_9G4tMZR8zuwVrPR0CiOmoQmVuT4qVugLsZVeUzs3zbRtwX2U4
+2020-07-11 13:23:09,611 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 13:23:50,270 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:23:50,411 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:23:50,424 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:23:51,541 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:23:51,645 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:23:51,908 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:25:50,169 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:25:50,347 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:25:50,697 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:25:51,592 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:25:51,654 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:25:51,767 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:27:50,062 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:27:50,074 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:27:50,468 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:27:51,380 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:27:51,610 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:27:51,682 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:29:50,115 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:29:50,176 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:29:50,554 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:29:51,435 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:29:51,786 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:29:52,023 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:31:50,181 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:31:50,294 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:31:50,396 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:31:51,422 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:31:51,556 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:31:51,752 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:33:50,129 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:33:50,141 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:33:50,520 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:33:51,510 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:33:51,596 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:33:52,003 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:35:50,127 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:35:50,230 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:35:50,481 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:35:51,413 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:35:51,678 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:35:51,710 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:37:50,248 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:37:50,378 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:37:50,696 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:37:51,560 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:37:51,666 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:37:52,459 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:39:50,143 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:39:50,226 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:39:51,452 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:39:51,467 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:39:51,844 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:39:51,949 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:41:50,243 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:41:50,256 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:41:50,490 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:41:51,426 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:41:51,473 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:41:51,717 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:43:50,198 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:43:50,369 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:43:50,430 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:43:51,538 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:43:51,729 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:43:51,783 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:45:50,170 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:45:50,394 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:45:50,466 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:45:51,432 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:45:51,469 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:45:51,640 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:47:50,225 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:47:50,352 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:47:50,556 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:47:51,490 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:47:51,662 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:47:51,984 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:47:54,687 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:47:55,197 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:47:55,322 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:47:59,760 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:00,046 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:00,552 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:04,728 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:04,797 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:04,816 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:09,729 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:09,961 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:10,058 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:15,044 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:15,113 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:15,594 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:19,872 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:19,935 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:19,969 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:24,741 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:24,810 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:25,465 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:29,996 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:30,052 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:30,069 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:34,847 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:34,993 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:35,006 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:39,729 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:40,071 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:40,134 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:44,858 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:44,994 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:45,508 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:50,034 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:50,082 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:50,111 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:55,027 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:55,063 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:55,142 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:48:59,757 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:48:59,810 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:48:59,941 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:04,840 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:05,144 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:05,339 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:10,018 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:10,171 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:10,275 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:14,863 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:14,915 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:15,149 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:19,891 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:20,023 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:20,127 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:24,803 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:24,910 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:25,436 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:29,869 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:29,886 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:30,173 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:34,966 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:34,979 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:35,240 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:39,863 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:39,995 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:40,028 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:44,867 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:45,236 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:45,334 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:50,100 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:50,125 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:50,557 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:51,540 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:49:51,553 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:52,030 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:54,855 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:49:54,977 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:55,323 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:49:59,887 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:49:59,955 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:50:00,808 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:50:04,893 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:50:05,005 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:50:05,213 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:51:52,014 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:51:52,153 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:51:52,413 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:52:04,934 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:52:04,989 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:52:05,002 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:53:52,101 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:53:52,120 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:53:52,572 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:54:04,973 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:54:05,000 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:54:05,052 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:55:51,932 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:55:52,200 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:55:52,388 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:56:04,939 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:56:04,979 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:56:05,048 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:57:51,997 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:57:52,034 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:57:52,273 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:58:04,937 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 13:58:05,147 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 13:58:05,600 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:59:51,934 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 13:59:52,037 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 13:59:52,356 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:00:04,955 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:00:05,059 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:00:05,316 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:01:51,189 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:01:51,189 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNcJR5zxiOIV5ZL2ofx3GRnSbHt98fgZi9xMg9HWzMl.Fo3BkvVpuRAfWd55h6wjuh6eI2Zub5QAXHwk_nOzHBI.bk_U
+2020-07-11 14:01:51,191 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:01:51,230 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:02:04,150 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:02:04,233 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:02:04,783 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:02:26,399 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:02:26,401 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNxcId_me7XlrmJGVyqZX16RlR1Sabk45GvbqTUEPJhT3WbtnL1MGIqt8lIM3K.swZFUzbqD83BnOqIDCd1mBtXE1sEE
+2020-07-11 14:02:58,121 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:02:58,122 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDzHptNibkc1NxU6_i0d.Ok0Vw2I8A23HoBX7v.R.pS_wQNjnyoFvqAs1tIak2qoNYR5eCT3.B3aSSOwQ1JlVTxWH6zA
+2020-07-11 14:03:29,599 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:03:29,600 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLBo4HukLR4XzrqHdCHG4sEAHe3_gWZG6AXSkcSiZUYhOumHv6XOI1kZvbRQziuZlVpWoVJRG7FNhZu8FYydxoPG0Jhj
+2020-07-11 14:03:50,660 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:03:50,672 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:03:50,682 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:03:59,666 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:03:59,666 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQA6SMHblt_RMaUe_1ChmX0_4.wXEizMJmZxi4LzLSwv2w9vJ1917dNGiW5JZ3eI701AE3B5mBEDqqg2rbucrEXdlaLN4
+2020-07-11 14:04:04,085 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:04:04,112 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:04:04,150 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:04:30,992 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:04:30,992 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHkJzGhDEXUJz_R1w51tlEAirb1R8bhVdkiwElwSrwJQi.e3dxZqOIkpwKdWW1Q1.Pbkq0PyvNUoeE7jhWzaBoIynBJP
+2020-07-11 14:05:01,670 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:05:01,670 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIWVcEG0bJWKWihcBHMmoV1.hXttrLOWnGc6z0RA3YEIIwXH.hTnupESFBTSa19cIUIKU9Sn_rVQFvl.XKipZjNTIlrR
+2020-07-11 14:05:31,323 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:05:31,324 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQESIy0PfQokd8iZ9402_NICT7d8jKN2i_WHzHOno_8Lls4bk259K0huUxrVs3iPAjOj2ZizoDQFZEtIMl9cLEEjTqm2m
+2020-07-11 14:05:50,725 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:05:50,739 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:05:50,764 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:06:01,615 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:06:01,615 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLhuNTY6l5xuiAEbByJdk5bi6igXN30iSUcjpmNfjr_VIGGT6_eklh85dYHutlv7bTQ0PxU1vl1Sx2QsXnuPjl9R5Zz.
+2020-07-11 14:06:04,094 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:06:04,120 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:06:04,122 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:06:32,253 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:06:32,254 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJyIWB_dRphUWADE0frccBoANLKxwzEt.Av3ZYMHqf_2uwrx5u8XwCTUMAxeKXyCSVT0E7bck.6sXzqGPnSHPWEJurDa
+2020-07-11 14:07:04,679 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:07:04,680 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQF9zC3Te7d7AgvuhSMxebZwXplMOws_6Dv_wyXY1g_xJLZH__UsuVnpFYbnuvoZMHodI1n2AnKwF3E140nnTpncAiIlQ
+2020-07-11 14:07:44,334 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:07:44,334 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQI6nm4eFPZaEM79SCTDydUvNWZuyNLf4JpF0psJTgHL8s9IdW.VNgimpH22dn2FTsCBGE15oigrcIU29kG5jNDy8sH0h
+2020-07-11 14:07:50,683 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:07:50,704 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:07:50,733 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:08:04,168 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:08:04,178 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:08:04,244 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:08:16,194 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:08:16,195 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNV.1.y8WgiQDaPyghzOSZKykfNrdvWNr.wsClglVjuL7XVMLqurix8RZOpxXyNfN8RaSAQuEhN8aMqqmthZonSvD6Sm
+2020-07-11 14:08:48,727 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:08:48,727 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQM81HgGMpgPSw46xXeladx8fpF7UEjWgdd_ayNFpph5ZREUojAzF6yrQ5ZvB8pzry1CCA7MOtolrKJqlSpMRWmz3unyf
+2020-07-11 14:09:20,310 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:09:20,311 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBZ5UNMxL_IpF8IdMFgZ_AkGCFosIJHYaD.ma0ot7XjvnXZMCMSXMqZDefZIcX_CXFhCeCycMVN2oRYk8S8Oth2BSlyn
+2020-07-11 14:09:50,669 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:09:50,686 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:09:50,722 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:09:50,926 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:09:50,927 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPyV2WGtT_lyQXk1etRtRd6u5tZBqrup7o.FuOToXvXb.rm4sceQEHL3KmXolcwrHVMklUH1q.YwyYlGowK2hsXVHwfc
+2020-07-11 14:10:04,110 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:10:04,131 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:10:04,209 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:10:25,438 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:10:25,438 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOgLgc5ot5.cMyBf6LvOFCeUYiZa.iwHFYnZL6aMOkZ6K0UA7zs9jmoQa6_z_1yehfKTrG0sbMwzVK_WTOOAKZLH4Nha
+2020-07-11 14:10:57,563 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:10:57,564 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNzfiMDrVr1g0r_o6eUv9jFY98QmaV9gP6XKAmJJd0WtWBm.ng3TiJMsQjBmNpK_HrFTDwPGVgPeOb1iFKftUKEAYuzC
+2020-07-11 14:11:28,369 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:11:28,370 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCKeahYRlodylshsQ3husNAH.MCyMYjSuag5a9aCarSpdq8iA7wsesBD1h_egL95wjMRPikYL8NjU8VwjcW94O7YLFh9
+2020-07-11 14:11:50,686 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:11:50,720 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:11:50,873 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:11:59,766 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:11:59,766 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCZsrsEHGH.LXIsVFLEIZ0nYt7Q6yrKD2_KZYrh.u6rrWZs28V4GHeQWHmVGQVOdeVbKr_4lYE7wtfC1fbEsOFr_a5ym
+2020-07-11 14:12:04,097 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:12:04,106 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:12:04,166 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:12:31,336 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:12:31,336 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGtX3yuXhKN.I.zfSRGXmjfJc1k_pmdNrEfDx5Y56Fg5zBxmC2t8tCbWr.AIUwDk5PN4kuJS.3iiMrICM2eilxSNWoGE
+2020-07-11 14:13:01,869 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:13:01,873 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFgOvBuLRhzGWP_i1Duo_7cZHXn6ozuMtbL3cSF6J7iSlGThM_sndFIDTEVvmSd.ieC9ksKvxRYE9o_Gz3QBLVXASgZu
+2020-07-11 14:13:36,665 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:13:36,667 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPjG7kFzUuSPkjOEUlFB2b4o84PNE6TyDQRVYysScD6uXxfV5Y.DvU5vcAgDpVqDi1V7LMNPa9VtQDnRsHznJH4LseOE
+2020-07-11 14:13:50,695 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:13:50,697 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:13:50,701 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:14:04,151 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:14:04,166 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:14:04,198 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:14:07,798 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:14:07,799 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQATXbCnMVhfOMuT8WJ9fyUgD7JR2oK8a8PFh3yCAa9pfwJ8qC4MCfW3ShtsEvMKkT2Zn2a6zpUMpCNltp6vznPgSjYw1
+2020-07-11 14:14:46,924 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:14:46,926 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNj35yBcqnkr1wN21UErSL0NhTMAVhQjDSHBQdq3KiJI_ih5N7N4jE_svr5gjxcp1VP6Yu3p8rETbiMv_cfJpo8yztaZ
+2020-07-11 14:15:20,933 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:15:20,934 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLT6Bu6DiWc.243N4e_oNqWFbRW6V7YMvELOwJbkFOa2mPV6BMa2tq89YGo0yGWZm3XpzbzI5jjy_z3dEl1.rKlln.jx
+2020-07-11 14:15:50,702 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:15:50,705 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:15:50,715 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:15:53,623 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:15:53,624 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFR9a_niUGRRhFqKST6o0M3TYkmF4FLo.0fp8pSdTuqcjWiju3.HXrRsZzvXXt3VaQxZ3Uc5C6u9WqTBl9ZNgykn4lAl
+2020-07-11 14:16:04,328 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:16:04,377 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:16:04,381 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:16:27,576 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:16:27,577 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHTesUR0ef46ELRe9M7UalYsEHtgnoSPXE38O5eBqOnNreOuMudUX67.ncqPHqViUSqPRkNncdx0j5IHiIqB5pBUXmFz
+2020-07-11 14:17:05,744 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:17:05,744 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMZS15ahpkw.rLQu.ltex5I97Ylj8tYLTsXI7gbzYDKZUUUOFU4TY6ytvRrfjPT6KZggkpkiiIjQClXwfVOBG4CJhXtv
+2020-07-11 14:17:36,391 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:17:36,392 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQA_2M3zpD0mqU8PHVJGezNvOeV8V9URa5DseB8Y9TDTKRaBqPbtVpvfqlmgOJarsGUMSnfUD9ICB_iZE666XhZ1OQAyI
+2020-07-11 14:17:50,735 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:17:50,738 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:17:51,060 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:18:04,117 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:18:04,151 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:18:04,161 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:18:06,822 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:18:06,823 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQM9D8j_bmD3FSFEpemSEUV30Uf7_YOvbHc7GbCKpSqRXjnlFxo1T1b.WE8p5vxeJs94kXbEwHVwkbQiDHxjt0BDLcoa5
+2020-07-11 14:18:47,198 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:18:47,198 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQH7it2MqdDdo3HhGF7jI6V3U6dIhIA2hgH_N9HZX9ID5yLLuQhSy4Wd95UqovgC_L9tVbEFCcBxjxcdmidUdtMcT0i3J
+2020-07-11 14:19:21,550 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:19:21,551 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBZWjnhZAnnJG6eqZjITMhacl0XPZYho.81QDxFFdaPX0Pb1.137yVW1Flqorcea.1CWwZ9Kr73POoOPBUoL6UkfT2Pc
+2020-07-11 14:19:50,691 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-11 14:19:50,729 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-11 14:19:50,736 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-11 14:19:52,529 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:19:52,530 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEV_LlCJ2LyzEQvM0uxm0AunGel.YUBlNd.Bl7rzxHCWZF2RYLfMOpylreWOI896yOvjHsfrdXV7opFUBXM_1mRm3tl8
+2020-07-11 14:20:04,121 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-11 14:20:04,169 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-11 14:20:04,205 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-11 14:20:24,685 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:20:24,686 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHO32UzSZs_gsLJrtYGiLmd599ptrxauen.idtCDtUXBVv24xmrAzaSZ589FmQf67h9lf4ozix5xeh9z_CQpYxeN28sZ
+2020-07-11 14:20:57,766 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:20:57,767 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDLAz5w3N0dakSQ1evJ4vCoPHvZfcPSeV87dM72MIoGZsb5vvWlFcGPevAAmMZ0B12i9oIfINQ6NVNqcZCr46HkD47rc
+2020-07-11 14:21:30,591 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:21:30,593 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAzFez1wFKPQM0C1EiCxUDixfR.mAFxvsIMOntE9Ou9pfObpuGlJt9OUJcL9a_XANT_tYK971yUVf.PbYANiI0FUnrPb
+2020-07-11 14:21:51,707 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:21:51,909 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:21:52,491 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:22:04,491 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:22:04,491 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKH70iYMiwsIzHuBsUgxLvmlmj278ZHv18RkNRQdlkaTC7rf3eEsUtxt7M1n1UYxGi.x14lxIwZ42YrRKfGcr6DD9vTd
+2020-07-11 14:22:05,200 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:22:05,302 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:22:05,375 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:22:40,874 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:22:40,874 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQN_SIuWIAiMNGKiTJ5DqjjpmzeOoI1UCU6JCFXDANEf37GW9mHMoEpdZJ8PeWEG1NQ69Wp_RzRhCvVM8foEUg81mZQPv
+2020-07-11 14:23:14,848 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:23:14,849 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKJ.pMEvLBWkDW78Fy2hNjmypaxqZyeAlZdHQlKXFFfYgqVzOrya8a7H6hjWK94HJaqcjrry2bqwltkW3R1U_FCsYZc.
+2020-07-11 14:23:48,606 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:23:48,606 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIYbdrmpSRTG5w6HK0xqUweQQQvc_yr.y5D9D.zt7DS5uKNMb06giKPVcswsWZkF547tMaFHZ4xqSLYWBL3OycQcYxr1
+2020-07-11 14:23:52,437 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:23:52,529 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:23:52,541 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:24:05,460 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:24:05,551 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:24:05,996 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:24:23,036 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:24:23,036 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQASIQfDBEojNafTnYgChEBg0Z59YsCFzboIllAki3Lq1l_ed9obJrrmuY.BzLUs37u1KldtPOg1nSn2RvC2bmni1UgR_
+2020-07-11 14:24:55,394 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:24:55,395 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAY99Ur72nsML7ZaBTx4NEC8XgVtYAU6yV1bsjrEnCYdWSJcLcJQTbiqKyOJg3PYSJapptWuJPa56IZBe6mLrw3EOUvy
+2020-07-11 14:25:35,308 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:25:35,309 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHkUfe0okNpUcrHVPCaK.w.hRLPUuWVjIRbcPrL96k7fwsG5rGU10RO.36Lh2W6.9c_jpS.M3c.Ls_DDvtpTxK7WyHi7
+2020-07-11 14:25:51,925 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:25:52,140 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:25:52,209 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:26:05,077 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:26:05,472 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:26:05,521 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:26:07,237 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:26:07,240 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLX2zcDp2Dva6DVpjQMu.Pf.XhfpOeL3BZdZzhTjHxwmsZ7YTklfgFm5mNhmLJQ2zr.CvT3X_O0m4w8pKhPsNh8ZKvp6
+2020-07-11 14:26:39,612 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:26:39,613 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDZB57NYHeqbKCyX4ehpog5M2G3GP3lJ03LnRI3jD85hQ1GVnvK_ZPT7gUvE6wUwaukCZeTg8l3o.7w7L80ACKxDqeKJ
+2020-07-11 14:27:10,641 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:27:10,642 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQG.gzoahc3YkMgXVSNsnxqJhuAckmWEhEGzpuPzJufW8Hj_BlceyRG6m6eiDiPLU.8lr7KMmsl1HUwFPEBbOqyzFnM7U
+2020-07-11 14:27:42,863 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:27:42,863 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAeQ1dBw8vZt6b4rTCJ7FcwX0wsAFNgwkTvRAgDi2eeP9qaXeTE5.KUL0MnXh9o8YD7meqtJqBwFfjQaNdFaAybvw3_9
+2020-07-11 14:27:51,696 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:27:51,796 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:27:52,138 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:28:05,533 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:28:05,562 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:28:06,121 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:28:14,990 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:28:14,990 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMKw3rjBPRJJI96cMikgEYKV5FsfA5Rc.6ClFV33FI51F6sn0o4z.IuWGmOKRw.kkaZBQW4lbdMfr3m92_6lVtC.WgaB
+2020-07-11 14:28:45,970 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:28:45,970 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBzvHfZyNeigXx3aadY2MD8GU10Upi8kvcv9F1i0sEbvfNZJwToyfsF39w.oXwP1LCJaESNwSoSZCEYGzw_S2lOtJhtp
+2020-07-11 14:29:23,967 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:29:23,967 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQB0kAKAJMVqKqwlBcUoncCniFDm_kTCnZbw7rgAvrjIn9gD7_3aqHLjSUZIjocsnl8Vbcm86O6zPrwJBu42V8QKkvZA9
+2020-07-11 14:29:51,749 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:29:52,015 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:29:52,222 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:29:54,328 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:29:54,328 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKJiCR8lCuBUvpfIveiiK_THIFUtC6aHM4f_EsnJtOYGTvsG05EEQQH_RsbeeNIB1.plWqSrd.C_Afk2POjqNR.7.iSd
+2020-07-11 14:30:05,443 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:30:05,500 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:30:05,874 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:30:24,522 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:30:24,524 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCGpnIBBpPvxEqrRWTXlCDmLRNFtApXhnPmLe4Wau5KRvr1y8_Z7TR2M.EYusmAGPldJW1ZehCVhc8lN7xasaeb4oh2a
+2020-07-11 14:30:55,752 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:30:55,753 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMqpD9kdP6Q56hE1cWtkCBmjzkvF0iqbEEQdEUSc33dXdBsZsMAuP8UtHU6UpSgHUxWf8ftW4TQM4R_z2vUrpb_z0IEU
+2020-07-11 14:31:26,458 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:31:26,459 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGR9ppgfEb63wbqmRGVbQgQLSMQZ0G0b8Ba0IHG0lLFymlmAKYt3Qm2CVMjKb9AegoeJ2Hlsujm.gm3Irvbse_M7588q
+2020-07-11 14:31:51,768 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:31:51,886 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:31:51,930 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:32:00,320 [session_op.py:397] INFO - E, Melbourne, SUCCESS_N, (2020, 10, 15)
+2020-07-11 14:32:00,321 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCdWZwKLTYoqoenmW6BgW.TafAm.y62rfl8NXPmip1ar7NGgMDHSOU9dmUyWOCG1rgP5NxYVB_aDYKzVpNRueZL7omoh
+2020-07-11 14:32:05,307 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:32:05,399 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:32:05,677 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:32:46,268 [session_op.py:397] INFO - E, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:32:46,270 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNVOmrB9o1X.ULUoRyIqQrMKgOw3IuJai67k9i4xMvIUNfUfFubQIYhZyJd5vmRCKofuVSp02WGmQQrV80S21caxYWuj
+2020-07-11 14:33:33,248 [session_op.py:397] INFO - E, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:33:33,250 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQG3IHvMO4hN4TIfUuxv_wP.E3jVcieTtjd33kwgaAp5sF08ORLASEzuOlT4S0cjHzbPzDvaQ10UFDUvGdIjWpYgHEwid
+2020-07-11 14:33:51,726 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:33:51,782 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:33:52,182 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:34:03,459 [session_op.py:397] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 17)
+2020-07-11 14:34:03,459 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQB05x48gQ_t6LgN_TeDAgIx7MPR.RQcIKlwGaMGvfpohpbZGVie0HCL_.VWCVnWEK4aV3TY6jBW0zlravrfrRNZCbCzI
+2020-07-11 14:34:05,347 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:34:05,359 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:34:05,459 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:34:33,916 [session_op.py:397] INFO - F, Perth, SUCCESS_N, (2020, 9, 10)
+2020-07-11 14:34:33,917 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPadTi5hRko9rnI5Ga_UMwpaXxOIOjX.ebdElsm1LL1OSsdeoqHBE1Fq6U0sJLsfV02redZEpIbk59L6cPI_.1CuCM2Q
+2020-07-11 14:35:06,835 [session_op.py:397] INFO - F, Sydney, SUCCESS_N, (2020, 10, 21)
+2020-07-11 14:35:52,202 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:35:52,214 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:35:52,433 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:36:05,085 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:36:05,241 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:36:05,562 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:37:52,266 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:37:52,464 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:37:52,597 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:38:05,319 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:38:05,336 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:38:05,428 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:39:52,208 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:39:52,487 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:39:52,504 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:40:05,220 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:40:05,259 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:40:05,966 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:41:52,147 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:41:52,313 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:41:52,397 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:42:05,231 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:42:05,273 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:42:05,572 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:43:52,279 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:43:52,355 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:43:52,486 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:44:05,223 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:44:05,308 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:44:05,490 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:45:52,425 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:45:52,563 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:45:52,619 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:46:05,186 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:46:05,334 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:46:05,635 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:47:52,160 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:47:52,397 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:47:52,527 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:48:05,123 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:05,396 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:48:05,558 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:10,182 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:10,297 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:10,419 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:48:15,181 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:15,314 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:15,518 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 21)
+2020-07-11 14:48:20,105 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:20,258 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:20,493 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:25,365 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:25,406 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:25,603 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:30,276 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:30,290 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:30,436 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:35,186 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:35,518 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:35,562 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:40,169 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:40,213 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:40,351 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:45,128 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:45,194 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:45,430 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:50,289 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:50,345 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:48:50,357 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:55,410 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:48:55,574 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:48:55,739 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:00,356 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:00,422 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:00,435 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:05,162 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:05,399 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:05,479 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:10,370 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:10,573 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:10,704 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:15,238 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:15,345 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:15,475 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:20,329 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:20,376 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:20,778 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:25,205 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:25,217 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:25,491 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:30,255 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:30,294 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:30,411 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:35,422 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:35,530 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:35,717 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:40,160 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:40,237 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:40,455 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:45,208 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:45,280 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:45,439 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:50,193 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:50,415 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:50,506 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:51,682 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:49:52,128 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:49:52,330 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:55,250 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:49:55,480 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:49:55,494 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:50:00,230 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:50:00,453 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:50:00,509 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:50:05,504 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:50:05,535 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:50:05,592 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:51:52,302 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:51:52,358 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:51:52,487 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:52:05,178 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:52:05,635 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:52:05,672 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:53:52,548 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:53:52,608 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:53:52,820 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:54:05,348 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:54:05,447 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:54:05,529 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:55:52,291 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:55:52,327 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:55:52,592 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:56:05,303 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:56:05,314 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:56:05,530 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:57:51,945 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:57:52,018 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:57:52,370 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:58:05,260 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 14:58:05,535 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 14:58:05,661 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:59:51,783 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 14:59:51,795 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 14:59:52,008 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:00:05,383 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:00:05,685 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:00:05,889 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:01:52,259 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:01:52,271 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:01:52,449 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:02:05,424 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:02:05,625 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:02:05,729 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:03:52,265 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:03:52,278 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:03:52,375 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:04:05,246 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:04:05,357 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:04:05,584 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:05:52,261 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:05:52,462 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:05:52,718 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:06:05,420 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:06:05,468 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:06:05,693 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:07:52,265 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:07:52,380 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:07:52,512 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:08:05,248 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:08:05,298 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:08:05,478 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:09:52,232 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:09:52,601 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:09:52,702 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:10:05,533 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:10:05,547 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:10:05,776 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:11:52,206 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:11:52,334 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:11:52,847 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:12:05,228 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:12:05,345 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:12:05,425 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:13:51,991 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:13:52,049 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:13:52,494 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:14:05,394 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:14:05,490 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)
+2020-07-11 15:14:05,513 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:15:52,521 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 10, 15)
+2020-07-11 15:15:52,612 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:15:52,679 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:16:05,290 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 8)
+2020-07-11 15:16:05,396 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 10)
+2020-07-11 15:16:05,766 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 9, 17)

@@ -1,0 +1,360 @@
+2020-07-17 12:18:09,245 [fast_visa.py:81] INFO - Initialization...
+2020-07-17 12:18:09,246 [fast_visa.py:170] INFO - Start threads...
+2020-07-17 12:18:10,883 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 12:18:10,883 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGVHRwrNyaxI3AAh7pfjfQD_vFkZM2VztA23XSCxTuVa5k3IJ5DZy1vj78Ro4TBKNJ7X3TAyzLO0Hj13AGUno7Ucyo0_
+2020-07-17 12:18:10,922 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 12:18:10,924 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 12:18:12,118 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 12:18:12,120 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 12:18:12,136 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 12:18:44,609 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 12:18:44,611 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQI4LLk0B6R_6i.MjWs8JWsx4e31UYEBrqHw84q4nf5pj3HjzJyDjho7rE8.9tk_xMgOqswkk.tKXBD9pmUjxPDPAKFPw
+2020-07-17 12:19:15,658 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 12:19:15,659 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQE23OKmnjBT4I33ArnkLSTZHNF_oajGnt0z8vujx_OCBFyc5Vukc.egiexD6gXKJJ2KttBn4EmURoOXvx.RCciMhOBhM
+2020-07-17 12:19:51,523 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 12:19:51,524 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEIAv7SaWvuJUotNO.TpN0GFMJ0wVMcqHCxWiGIOOEjRryAS_J78clIAneDlIztwvo2vSdrZyPagROqOUGQ9dMGEEF2g
+2020-07-17 12:20:42,172 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 12:20:42,172 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIlTnfXIdyuzPQ_p1gdrVUCODw50JDNHXLCZc3DznOf7PvhZ7.q_rzUIQrMCMUw6ywPajxUrPt6vwcwjUOcQNjhzo9fY
+2020-07-17 12:22:24,081 [session_op.py:79] ERROR - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+OSError: [Errno 51] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x12c4c2e10>: Failed to establish a new connection: [Errno 51] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cgifederal.secure.force.com', port=443): Max retries exceeded with url: /selectvisacode (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x12c4c2e10>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kenziyuliu/Documents/us-visa-appointment-crawler/us-visa-aus/visa2/session_op.py", line 56, in add_session
+    date = visa_select(visa_type, place, sid)
+  File "/Users/kenziyuliu/Documents/us-visa-appointment-crawler/us-visa-aus/visa2/session_op.py", line 348, in visa_select
+    r = requests.get(select_visa_code_uri, cookies=cookies, proxies=proxies)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='cgifederal.secure.force.com', port=443): Max retries exceeded with url: /selectvisacode (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x12c4c2e10>: Failed to establish a new connection: [Errno 51] Network is unreachable',))
+
+2020-07-17 12:22:24,082 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMGPWxiJW85YoaoADQ0iCfKWcMR7rN0fMvzwxAkZ_QKbHdRuXtJDkr01p5Ol1Qh7RsYovo.lvedNUMvCkOe6PCByorNx
+2020-07-17 12:22:24,085 [session_op.py:79] ERROR - Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/local/Cellar/python/3.6.5_1/Frameworks/Python.framework/Versions/3.6/lib/python3.6/socket.py", line 745, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x12c17a630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/local/lib/python3.6/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/local/lib/python3.6/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='cgifederal.secure.force.com', port=443): Max retries exceeded with url: /SiteRegister?country=Australia (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x12c17a630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/kenziyuliu/Documents/us-visa-appointment-crawler/us-visa-aus/visa2/session_op.py", line 54, in add_session
+    username, passwd, sid = login(cracker, place)
+  File "/Users/kenziyuliu/Documents/us-visa-appointment-crawler/us-visa-aus/visa2/session_op.py", line 142, in login
+    r = requests.get(REG_URI, proxies=proxies)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/local/lib/python3.6/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='cgifederal.secure.force.com', port=443): Max retries exceeded with url: /SiteRegister?country=Australia (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x12c17a630>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known',))
+
+2020-07-17 16:16:32,055 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 16:16:32,056 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOEZz5xRWrauQE1Tb..ileUgVP4Rji2MfpnE5ERG2Vn_GMwLqSBzKdwKFkVcn7Sm9QKNPm3ovUE6cJ9ficBSNDxlDHQz
+2020-07-17 16:16:32,062 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 16:16:32,189 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 16:16:33,575 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 16:16:33,600 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 16:16:33,897 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 16:17:04,332 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:17:04,333 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJcwUG8sips8EVxQP2u3vu5DgENfLPNvBMDQF3TT6DwQDsf3BE9ZKdfEW2.jCObTagU58nTH5NQk3C0flsJQkmky0rUH
+2020-07-17 16:17:35,607 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 16:17:35,607 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFkEpuoK7Q1AV1vBWxUReYyEF5uFCqRDA1pPGsyoe1XwY8BBwXmnNHoqn6W0S.8Z.O3m4QbOJoI8O1ZWr5pDBm2sEqI5
+2020-07-17 16:18:10,730 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 16:18:10,730 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQB2B2AKo3Yn7OyeXgHlbnwDEHHzLrTHpvCJwIy7OJbEs2fh26GwDAwfXHe.xcJyb4cvHKjNR2TfMzWuw64uTB_r3z2vz
+2020-07-17 16:18:40,901 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 16:18:40,902 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGKo.x0p6N9sxFSYqGiS.9Tz2ai1pmEMhr9tDeE6Rz3ID74ji5R8RPvKMQawozCPCMeR57T1PnLvIehHfYtdZSvUvJpc
+2020-07-17 16:19:23,302 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:19:23,303 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGfG7zfeM2e5JnmxkHdlY2bkDrXhOjLuK0LynR4STZOodtc7V_T3eRqiunCX9sazYVgfTojczoOYiGLFvzreBcnvjVW8
+2020-07-17 16:19:55,982 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 16:26:32,151 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 16:26:32,152 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGNGh4AYJNe8Pn_0TdlD1gvepixKWxVVqdUgF9APQol2jcKJwe7tntznC3l6apS9xtpX_I2tzK9XK96VelElaQDgAaLM
+2020-07-17 16:26:32,167 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 16:26:32,185 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 16:26:33,532 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 16:26:33,544 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 16:26:33,579 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 16:27:02,219 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:27:02,220 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQB4wmw0Yie4GB86EJFGJaVd7wPO6k5u6pchyYanbZaM6EjxSh16DLdK0J0xnagNJvzJBmbbCE8L6F5d_o5Y13nBuk9qO
+2020-07-17 16:27:36,110 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 16:27:36,110 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQM.JI1Z.0goTtMD2C_fF1qR7eiDU6_EclId_nAxkOqkGz07Hr8sLSph0I9VDtu00VM1WaKGZwcx3ISb1WHXCERNBlSrf
+2020-07-17 16:28:06,357 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 16:28:06,358 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOeTlk3wXPjExJn00SUwme7Hkpce.4Fkpqj1YRcYwpYh4j..bQHf6rxPr6ZywrZ0AGcl0SdE4EtcZjhsTWtDSJZl7bUD
+2020-07-17 16:28:49,280 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 16:28:49,282 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLWIxUT0q5IJQ3Ner5BqUXzuz8BUgmWopa8.dbVGW60xfD.QdWBMANrO11_lQoLbEP3mIDhHWoDUcfQ0htdpv2VvhJjs
+2020-07-17 16:29:21,000 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:29:21,001 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFGcYtq2WUX6RuJmkXUCfJNSlwxIC3mCd0zmQtLo8XaZmDqJw8nyUgmuZXQsdgc2SHaJh2.JcIKwnEiLg1MlK5qWmnl7
+2020-07-17 16:29:57,213 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 16:36:31,932 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 16:36:31,933 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGKo0w0BfUXAR8a7J_LRKwt0hMWkIS3lxfT30Kbu2Vps.cfWiwcAiEozGngFneMjXVNWEG18tXws_oTD.ZoU2.VTfAWn
+2020-07-17 16:36:32,267 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 16:36:32,285 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 16:36:33,317 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 16:36:33,348 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 16:36:33,391 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 16:37:01,564 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 16:37:01,565 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDMoAMijz7Y76HX58qQPMNkhEpXjfGl7uxilxH2wowBD8PeqUwwB5oalVo8pjLQfTEJRXt1CMHL0uxF_4Z4wgektuQKo
+2020-07-17 16:37:32,287 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 16:37:32,288 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKETmGFgKcTQbt7dUO5xkXZoHm2fASVLro1F8.tM.K6Cuqdxi_eyqK4dSdTURjaSwWlOx01Fgp7_W3oxw7s6tFIfIIVV
+2020-07-17 16:38:05,697 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:38:05,698 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCVAjHsgSRDRUCVAxyaJWM2wpYkNxFimksoBXCzWIHQzpzn9ZupJDJnNbG6c_aRIDXhQRNQUSp0M09ogk6zAzs4jQnoA
+2020-07-17 16:38:36,160 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:38:36,160 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLEonOTlLqheBvHdbFd3bgR9nN1RV3mNdnMKeeG3irQFK4h_kpcRE3yKESTyUidzz8NBix8sYyWU1W2iVac2XvlRD9x6
+2020-07-17 16:39:06,034 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 16:39:06,035 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQPr_P4H1KU0CN1bNDRAAcK4s6t5AMqqjDAoYtEe2oO.4ANqUBce6ck1gUQjPSM72pKkVsiIofUMpmWupIMNR6Yk9W_Aw
+2020-07-17 16:39:40,484 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 16:46:31,981 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 16:46:31,982 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGQ0IXMD4X_wU5jFCJowBlMM_AiwChzxQtfx3cD3DYdvrjzjAikml3bxRMAGaPNtQ.WrDOAOJJK3hDFTx9e22v_bS3Z4
+2020-07-17 16:46:32,031 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 16:46:32,208 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 16:46:33,357 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 16:46:33,587 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 16:46:33,626 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 16:47:02,435 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 16:47:02,435 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHaz2GiXRrdDy2rx3nn9bzdyalDndtWexp_1OVyFKYZmiWIOkMxazbfXbl7TzlamjAfaFTFnVWancbBeiFBJ.XHhgRLE
+2020-07-17 16:47:33,640 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:47:33,641 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOQkka_wLbefTF8DSxj.1y2ZaGhnxbnvW63A6cV5AqYAiGJBR0xMpOeAg7cfz_mUWM7mXGvgTTYIIn8s2vfztW6saDq_
+2020-07-17 16:48:03,513 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 16:48:03,514 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJcS5CU3U.Y1yWgXJeF9xOCFpt2KfqBdEZbYXiPxfBWGUisHoybflEgUCRqJAA.2QVeqsKCwnkc0tLXkUSKvy9UQTBVa
+2020-07-17 16:48:38,241 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:48:38,242 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDW3JdpuHjOhrH42h0tPFICD8Sk0rKrHC24NLVpJUInoV8Do.8tUAXVI8IarXQysN0QOUqhh_MfwSpZxET5aDnMioxcA
+2020-07-17 16:49:18,550 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 16:49:18,550 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMXklqR2VIba_EcX5utwaH6fn.VFZpmHigZ57Wiz297mCVlKUGa1ZjCo7RAjOerFw6XY0FPs_H80Gw3DOKvyBtGkrEZb
+2020-07-17 16:49:52,055 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 16:56:32,176 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 16:56:32,176 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCvz3DrZSkbRrRrMgsJX.LzSGcKZrbbxLs0S2UU8_TM5bnDGMYD7IXk9f322v8TSxguVcJNhhLMENAM.16bU_nAZ5wfL
+2020-07-17 16:56:32,246 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 16:56:32,292 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 16:56:33,445 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 16:56:33,512 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 16:56:33,558 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 16:57:01,996 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:57:01,997 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQI6HSsyeSG83kFu68kreEDbxrb10cHcWUAWa0Xk2I7tfEEfVHJncnyOU6cs0G8Ur5BNgfpj542JtwyTVLFM7pA2aOkqW
+2020-07-17 16:57:32,013 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:57:32,013 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQD5WMQLjBSbiJvvaMZ6GkHnUA.xzuOae.sOPMPwrdL_2Vajnhcuba2EvpHVhLdfEfmPPAECzCscrkG1f9JpANSb0jYMp
+2020-07-17 16:58:05,358 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 16:58:05,359 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGUt3xeTCxdGtnQFAhNJBm5HG2AovR5bfsrZyCIb5fTttpAIjV.YOJnkxEjdkajqeMMK6Y4zArsp7yEgqynRTB7cpYcp
+2020-07-17 16:58:39,101 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 16:58:39,101 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFt2I7fMAl0daWJ8gjvFcR.aPa78f.QPNJmOsaZm2ZFG6b1fkTPK31KrwhXVoqU2jVL2a_oGDe4KKd6q1upwB7iEHgkw
+2020-07-17 16:59:09,316 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 16:59:09,317 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJnVJypOQN9HbxqWp8FZAvYZJdrf.mU1wLn9DwKmVK14HzobKF4iezoUXhLCoNDIqvv5m8oaNdq_cHU4vV52beLw7uSf
+2020-07-17 16:59:43,160 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 18:26:19,583 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 18:26:19,584 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCTXc3wc8H8tcKaghUroYQmXSOHEC0qm79Th2yoLtdJ5vkiDH49rYUdL8xOU7pFaPlurLnX1ppUsN5cIx.rVUTQcCBq3
+2020-07-17 18:26:19,651 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 18:26:19,670 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 18:26:20,794 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 18:26:20,830 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 18:26:20,832 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 18:26:49,716 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 18:26:49,718 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQHXWCx0r19ka4EvBJb5m8qR.L24fSZERKxVFVBPiXd8YIkS9ofI3DfFdLOHnx3o8xJUHmb7bxXlFfkJvc0ajrJarkAsr
+2020-07-17 18:27:19,516 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 18:27:19,517 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDehvJ9P7JyISI1bQOZNbApeKEBKrCBH.c2voFxJU7Re1S_lYLQKyPIR2xIHVeTXPlvn3kK2Tv3lFd4rxlUOYMXx9qDC
+2020-07-17 18:27:49,235 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 18:27:49,235 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOOLj5ps8deqaz4LplLtpIP3xEaSYR2M7Tml_j6CXv9xZZLS5T4yDswGh1469dFG5Gmf0abcHw0dqU09d0Qd9S82j8Vs
+2020-07-17 18:28:25,803 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 18:28:25,804 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFvEQL8uKqHM3p9C_0wW4tI49C2gJS9Dzg4u3O6jT2m7d9_csJFEX4h83uut.mzZsdaxzPak_Loxvh.K7ocAfiF4ydLF
+2020-07-17 18:28:59,028 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 18:28:59,029 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAqilJ7uQlfXYz3tjv3lJaFMsoaxKmuLgBxE11gaC1TAYqc9.JXC1L70..wk8C.7mqiSO2n..NKPPpoHbwEI2LbrT5L9
+2020-07-17 18:29:32,344 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 18:36:19,603 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 18:36:19,603 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKt49NYCl5l3yaTuriWa0g81w_TonERdlfR0OwGF56v_HbUbXUxgWDByzunskFocAAvczvHpVI4_xCvPrD_dOj0K91Km
+2020-07-17 18:36:19,620 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 18:36:19,712 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 18:36:20,831 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 18:36:20,838 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 18:36:21,200 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 18:36:48,682 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 18:36:48,683 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQF0aXFjDB4kID80ZIUe.xwgbWsIZgrzqsA0kpOFc0kqIICIrE5CbvbjvLV3a8iCH0t0FE079H1DtsPXfIKSGWuOSHt7U
+2020-07-17 18:37:18,123 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 18:37:18,124 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBiYe1bq4sF4sQpFxmZPo4Lob3KvlxJy6JQwOYkvKhvVtgo1xPuTupytCnR3Fv0T4cj892oNzkQ17fvPEU1QZJodBeWH
+2020-07-17 18:37:51,192 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 18:37:51,193 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQM0nvUPl_5cIlsylxGfy4AHh5NVevlTtBata.sfNmjJqT6yb.8ZbahGjiwX39ejWsAEsh6NtCEh8c16eioMZgNI09zRJ
+2020-07-17 18:38:20,963 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 18:38:20,964 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGeJ.nE3rv.eX_pywD7C38Ls2hf9a213QL1afOMJyXG_ye9IkB2KVOeUAaHTALWBc64WEoDEyzvV1x2U59BECjbnfYqN
+2020-07-17 18:38:53,599 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 16)
+2020-07-17 18:38:53,599 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGkQQB_XYebuhvzRW.pTl.yh6sUrs24CrD5xTQyZ0NbhsT61PH1_Ev69sCY7Ii.s0Pa.GyFDbZ.X5HkS_Igyzk3A0Sps
+2020-07-17 18:39:26,459 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 18:46:19,653 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 18:46:19,653 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEVzux3iBsx1vj_8zLAMXGNDlt0u7th25vR2JrkcnXWeUYPeTTH2bOuke0zIAlpJzBcKV4.u7wBwyK99fHdpTgGWe9X5
+2020-07-17 18:46:19,671 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 18:46:19,685 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 18:46:20,849 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 18:46:20,873 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 18:46:20,878 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 18:46:55,362 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 18:46:55,362 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEDhScaRhQ5anb6y3MjNoS7x9gBIeZ.JZ_7BPToYxCDKKAgtyHOw7ORuoPpNZDYr_MUzb2n0V3Z3BuAaNljRHGSyAh4E
+2020-07-17 18:47:32,706 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 18:47:32,707 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDPiTzBTQJ_Qx7I2Ma2byBbm0jXxKJogfwgyqH1lLjvqxCrzh9Ecc5gCtZEEaR8et2lW400ChIAwoG1dk2cko3WRb5xZ
+2020-07-17 18:48:05,404 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 18:48:05,404 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLHRa4uwapguBbZkSsvEChoJPlCuK5kDME3hpk6rohkfnfGIC_2q5r.OExg4CaKQA6MZ7qNVX0FfX6XN_zDHYSC7xPkT
+2020-07-17 18:48:35,384 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 18:48:35,385 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGzd6aBOIsIGXYe1eOhQGP88C3PaO2YiYSeKOXMOj5vh89SNVC4Bw9fyU15xzz1CHTEkAIgYIBm5z9CLJdXxOnFwnwyl
+2020-07-17 18:49:05,364 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 18:49:05,364 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNJGJeoH5hQXQn9aT0yubochtvxu289gzxFOAoOV5RdcfVAl6ugndUiTRCMPTjx70UTNKZacolYFJfHYxoRr0xLObDMv
+2020-07-17 18:49:34,837 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 18:56:19,636 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 18:56:19,636 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQJfuVP3qBe2bTlv82hbosfrI_BMZzVSXe.cF.V9peY_02zGDPUdfq8NInGXJ_YpOIHM9czf4VkNwTosdpVEFJi7XJa37
+2020-07-17 18:56:19,640 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 18:56:19,643 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 18:56:20,840 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 18:56:20,882 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 18:56:20,887 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 18:56:53,075 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 18:56:53,075 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQI4oH1kUt5ZUWzks_QRSR2ODacbuCI2ezoQ6Z9ZGOhJZFEbMcC.qSB2jwe7aAb.x15JpkFAz.uEPvPtXaWzNXMDX6wqY
+2020-07-17 18:57:22,874 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 18:57:22,875 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFoyWfLesEs6m5WuGyPAdXIsntPMubuLTuaKtZnVFwdWyVvJChaXZtWgjIA51qFO1B7_3JeGf0bvEc06GCqDCMK.m7Fj
+2020-07-17 18:57:52,687 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 18:57:52,687 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEGjK2xhzbLx0UIwIBsYB9zAHHUcVKPUYT41GyvFtZiwusrfHeFGnTcixBHodT4hGFjRZirFV4rDeR.gyCOIkLbIUcNe
+2020-07-17 18:58:34,970 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 18:58:34,971 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBOEi94.P5SZ_TUfXfIKIsqw5QG6X0iL4l8SX50b3uYA6OOPCPqN8IccKqy8iMuI1_dJEIExhr0UBhuGSh9pAV.YeoGf
+2020-07-17 18:59:05,028 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 18:59:05,029 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLKr5KBXXjtjYbtN177yMZpqukkPXU1_idDmOyEPqW2EyUqLwANUFIz1MoV1AfjqA4pa2n7mMtbDaXBfOls26.ACxDpp
+2020-07-17 18:59:44,168 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 19:06:19,642 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 19:06:19,642 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLx_itHMvpESdSqRYPSKbMnOtol_vPJxV4LvJXzrhwCWok7ZkvvwoeBU7XOykwVQ8hZhXnAo7EARVGX76vIGm4t7Q3_e
+2020-07-17 19:06:19,663 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 19:06:19,969 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 19:06:20,878 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 19:06:20,913 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 19:06:21,071 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 19:06:54,838 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 19:06:54,839 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLS8gqI5Iw26DxWGq2g.dzn_k7lrFw0WqpkDzxLgYK6iznPBKJnQIEIFT9THnlsSdUla5Yl307MoZynB9FwpQiTVKRqQ
+2020-07-17 19:07:24,476 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:07:24,477 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQA075QD_jTPy44tShyA.ejg8VTjZvTmKLj.nBrfQCyZpeUHMEKwFr8pfjuCSMP86Za369kXzPeNi4xU0PmEMYQRApiXK
+2020-07-17 19:07:54,847 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 19:07:54,848 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIlTnfXIdyuzPQ_p1gdrVUCODw50JDNHXLCZc3DznOf7PvhZ7.q_rzUIQrMCMUw6ywPajxUrPt6vwcwjUOcQNjhzo9fY
+2020-07-17 19:08:23,952 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 19:08:23,953 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQCQ1fnYCY8FDCme9av5ZZGbGVUz9exDHELWpzXyvXmuY4eSEcBk.0e93q8mhftycKkGZGgphWIBPp724sPepFyZDJmkB
+2020-07-17 19:08:53,899 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 19:08:53,900 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQMGPWxiJW85YoaoADQ0iCfKWcMR7rN0fMvzwxAkZ_QKbHdRuXtJDkr01p5Ol1Qh7RsYovo.lvedNUMvCkOe6PCByorNx
+2020-07-17 19:09:23,891 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:16:19,660 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 19:16:19,661 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOUVaS.oIVUrrJ61.F96GcC69JUavLIqHy6B9omyY7UI6igzCC78chMY4OK9exe8LKCYZ9oCnhIHWVvv_phJ_6bu_TOl
+2020-07-17 19:16:19,664 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 19:16:19,710 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 19:16:20,888 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 19:16:20,906 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 19:16:20,924 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 19:16:54,863 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:16:54,864 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBoy9IMHFeLlFSgrPzKDdDUvhYpUtV4DZSWgOgrzOAFwQJzMlQZ.oQuLzV2XXVl.7.mgKNxvtOozAn5Jc4JJJWppHOcQ
+2020-07-17 19:17:24,651 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 19:17:24,651 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQFEGHIsA.gUccGO9jzirTKWLalb.qQkYc4o4RMazsR2fT6Nro.M7jYIKXFS55pBUbFgcHMPz8mPRLzYG6.bC6MpX2SJV
+2020-07-17 19:17:54,035 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 19:17:54,036 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQGVa_f1iZIDw3MZko4xXg5_LoEAFsX8coLWmPw2Gd_JMVUqcLwRW3ebFeGOJvq.gJkW8s_n3EwlhKfFwA5pUExRXZwzX
+2020-07-17 19:18:25,474 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:18:25,476 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQDexCNn1aJn6iMFw8DvaNr08TqiF4wf2J3qCsODzzn_elZf1nTRJfCvTetq_2JR5vVmxLZqAUbZ_pPXuNKGUDKk8jG77
+2020-07-17 19:18:55,022 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 19:18:55,023 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQBX0PAT9THZtsS9Q_Fe2UCxL4x7L22rSczp4l_QmK22qnD6vFA_Iqmup1WUXuJq3wqSk0qd7D.r.HIgMoakwPEsyO4np
+2020-07-17 19:19:24,580 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 19:26:19,684 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 19:26:19,686 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQB5rHWH_IqPeRnSBClcEX5iw8QDHsffixR7AC8VUx3PC__kryurh1uRRD34VqSw.M.NZbPRdh5Op8D7UDVD_vIT_x6C6
+2020-07-17 19:26:19,708 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 19:26:19,714 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 19:26:20,948 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 19:26:20,960 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 19:26:20,986 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 19:26:49,870 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 19:26:49,872 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQIAq19zWvIYpa7Xl1OmB0AgEscNunP4XwETZawiMeRTmX5qzBZiAFOHh6GDC_pb_HsR3XusvHI6NV5x1Nyz5FIHxCiQ0
+2020-07-17 19:27:23,533 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 19:27:23,534 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQOIuk2X1JBheLKztW3pvejw5_8Jk5bJ.4FpzPsAo7B_p0e44Fdqcq3OZ1uH2ri4uTqTlqNhLMeaP3KA7OPLitSDQvfvp
+2020-07-17 19:27:53,412 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:27:53,412 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQKTuAIOUfODUlMD9CPc9uCZLtsBIov5tLsW0nq0gilbmfOk7Cn7.QJay_Vz03XFvl7DxHQMQ1.kEdrETZj7X5WXEs8BS
+2020-07-17 19:28:26,615 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:28:26,616 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQI6fg_92Nch1Mspbwmfyg0js98j9KfznHgFX8Jpwtd0bOWV4ocT.3zSPF4j1M2.IAu62YUXS1zuozYR9CXLZfqByg5Bg
+2020-07-17 19:28:57,209 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 19:28:57,210 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEZgyES1LrjtfPq62SNt5oCWj5T9ZOmj.BavIfWDVYgxhV6ZjDG14YK7JT1V0DwO4ZAXyda1YThQ0LRO7AIsEMazbiCq
+2020-07-17 19:29:27,307 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 19:36:19,702 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 19:36:19,703 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLub8QSGRK81SLUEGPLZ2Dl86QIlE8upJuodL.XKc9saUi1Z265OgePVwxDo68icr5gDHa_FgF8uLEKgKuTYjyv2NOUL
+2020-07-17 19:36:19,717 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 19:36:19,724 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 19:36:20,894 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 19:36:20,936 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 19:36:20,938 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 19:36:56,038 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 19:36:56,039 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQEur.GbUAva2iDgxuzByObIY8bSL4DQyWMy9_XGGh2h3wvfVa0cEaVXqd0yZWOHYz1ZWMsyoWJrQknxFm4ET3S.R0Mak
+2020-07-17 19:37:29,850 [session_op.py:398] INFO - F, Sydney, SUCCESS_N, (2020, 10, 14)
+2020-07-17 19:37:29,850 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQNV8JysfdO.YPnb6dMvjnJp7dWBIutNEzlvgvAtkhmu6zlExg1sL1vCG8YJ.6tbVLBl0VJxgr3P.FVgXvdPTLoaB.gys
+2020-07-17 19:37:59,773 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:37:59,774 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQL7oh7rTj1CT3mnbcuSOaFOmsjtmxEIFn9DEi.sZ9fFpgk.NbyUsCSkrdmYAnMFdGmuCwDwGPQ3qXdKO.rzMkmxCuBr_
+2020-07-17 19:38:30,246 [session_op.py:398] INFO - E, Sydney, SUCCESS_N, (2020, 10, 19)
+2020-07-17 19:38:30,247 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQE0xyotUkw.yf5p9PvAcYNdZS_Nk0NF1cPHrbgyrTuoMWO4hlpO0iAFFKo8t.8Fu5w6zIyLcOZ5vgh6T8MhxRKlzgWPC
+2020-07-17 19:39:00,521 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:39:00,521 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQH2VMx3jyvgg9mbOO8B9.6WlR3eeUU3Uvo2MVskxn9NJl3W.dsF5xIkp8uLf.I0dBklvlK9qLNfboXlGdfv6aP1nj.Nt
+2020-07-17 19:39:30,338 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)

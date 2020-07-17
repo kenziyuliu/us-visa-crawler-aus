@@ -366,3 +366,14 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='cgifederal.secure
 2020-07-17 19:44:41,978 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 19)
 2020-07-17 19:44:42,006 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 11, 4)
 2020-07-17 19:44:42,031 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 17)
+2020-07-17 19:46:19,720 [fast_visa.py:197] WARNING - F, Perth, FAILED, Session Expired
+2020-07-17 19:46:19,721 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQAzGDTbSk1ZOfwtXP7hBvj1F2lddr8YYb6YPsla0FLntHUpwfgrqiWcia._8Md7B44boIzu_UlwCaELGYzNZkPQhC3.6
+2020-07-17 19:46:19,733 [fast_visa.py:197] WARNING - F, Melbourne, FAILED, Session Expired
+2020-07-17 19:46:19,754 [fast_visa.py:197] WARNING - F, Sydney, FAILED, Session Expired
+2020-07-17 19:46:20,999 [fast_visa.py:197] WARNING - E, Melbourne, FAILED, Session Expired
+2020-07-17 19:46:21,007 [fast_visa.py:197] WARNING - E, Perth, FAILED, Session Expired
+2020-07-17 19:46:21,019 [fast_visa.py:197] WARNING - E, Sydney, FAILED, Session Expired
+2020-07-17 19:46:50,678 [session_op.py:398] INFO - F, Perth, SUCCESS_N, (2020, 9, 17)
+2020-07-17 19:46:50,679 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQO5lW8etwoZ7fI536aTDn2ZrGyVJAZFadQirtHpiv7xPR1EUvcalQ71iGyG0BL1dY_TqzDbCkRMvRFwGuKqh.9vh3uLT
+2020-07-17 19:47:20,674 [session_op.py:398] INFO - F, Melbourne, SUCCESS_N, (2020, 10, 6)
+2020-07-17 19:47:20,675 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQLXLZFYUh0B3yYx8C9qE1n681MfU8oZBHMnPAsLeY7HMKpq4OJHU3FrK5WP.k0cOi6b3YQijLb19KOMjHdmbtaddOT_q

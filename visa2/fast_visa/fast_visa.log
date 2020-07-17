@@ -358,3 +358,11 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='cgifederal.secure
 2020-07-17 19:39:00,521 [session_op.py:398] INFO - E, Perth, SUCCESS_N, (2020, 9, 17)
 2020-07-17 19:39:00,521 [session_op.py:51] INFO - Update session 00DC0000000PhuP!ARwAQH2VMx3jyvgg9mbOO8B9.6WlR3eeUU3Uvo2MVskxn9NJl3W.dsF5xIkp8uLf.I0dBklvlK9qLNfboXlGdfv6aP1nj.Nt
 2020-07-17 19:39:30,338 [session_op.py:398] INFO - E, Melbourne, SUCCESS_N, (2020, 11, 4)
+2020-07-17 19:44:36,831 [fast_visa.py:81] INFO - Initialization...
+2020-07-17 19:44:36,831 [fast_visa.py:170] INFO - Start threads...
+2020-07-17 19:44:39,516 [fast_visa.py:216] INFO - F, Melbourne, SUCCESS, (2020, 10, 6)
+2020-07-17 19:44:39,662 [fast_visa.py:216] INFO - F, Perth, SUCCESS, (2020, 9, 17)
+2020-07-17 19:44:39,811 [fast_visa.py:216] INFO - F, Sydney, SUCCESS, (2020, 10, 14)
+2020-07-17 19:44:41,978 [fast_visa.py:216] INFO - E, Sydney, SUCCESS, (2020, 10, 19)
+2020-07-17 19:44:42,006 [fast_visa.py:216] INFO - E, Melbourne, SUCCESS, (2020, 11, 4)
+2020-07-17 19:44:42,031 [fast_visa.py:216] INFO - E, Perth, SUCCESS, (2020, 9, 17)

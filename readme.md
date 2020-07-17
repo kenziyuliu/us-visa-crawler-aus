@@ -1,4 +1,4 @@
-# US Visa Crawler
+# US Visa Crawler Australia
 
 - Crawl US visa appointment times for Australia (for E-3 and F-1 visas only at this stage)
 - Crawls every 10 min (configurable at `fast_visa.py`)
